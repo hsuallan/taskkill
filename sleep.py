@@ -20,7 +20,7 @@ while s:
     if x==1 :
         break #success taskkill
     else :
-        pass #do next run
+        pass
 print("kill at : "+time.strftime("%H:%M:%S"))
 os.system("pause")
 
